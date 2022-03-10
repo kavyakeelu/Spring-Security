@@ -1,0 +1,5 @@
+/home/vagrant/Docker/02-spring-boot-app/src/main/java/com/stackify/model/Employee.java
+/home/vagrant/Docker/02-spring-boot-app/src/main/java/com/stackify/repository/EmployeeRepository.java
+/home/vagrant/Docker/02-spring-boot-app/src/main/java/com/stackify/controller/EmployeeController.java
+/home/vagrant/Docker/02-spring-boot-app/src/main/java/com/stackify/config/PersistenceConfig.java
+/home/vagrant/Docker/02-spring-boot-app/src/main/java/com/stackify/Application.java
