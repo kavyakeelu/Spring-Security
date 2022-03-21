@@ -1,0 +1,30 @@
+pipeline
+{
+    agent 'any'
+    stages{
+        stage("checkout code")
+        {
+           steps{
+                git credentialsId: 'b65b780e-a282-43ea-9b33-2ed41a01c4af', url: 'https://github.com/kavyakeelu/Spring-Security.git'
+            }
+        }
+        stage('Build App')
+        {
+            steps{
+                echo "Running mvn install command"
+            }
+        }
+        stage('Run Unit Tests')
+        {
+            steps{
+                echo "Run mvn unit tests command"
+            }
+        }
+        stage('Deploy App')
+        {
+            steps{
+                echo "Run mvn deploy commands"
+            }
+        }        
+    }
+}
